@@ -310,11 +310,11 @@ header {
 /* -------------------------------------------- */
 
 footer {
-    font-size: 80%;
+    font-size: 70%;
     float: right;
-    width: 15%;
+    width: 12%;
     margin-top: 100px;
-    line-height: 1px
+    line-height: 10%;
 }
 
 footer h2 {
