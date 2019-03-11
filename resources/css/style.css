@@ -280,7 +280,7 @@ header {
 }
 
 .publication-box div:first-child {
-    background-color: #fcfcfc;
+    background-color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -299,6 +299,7 @@ header {
 
 .publication-box ul li {
     padding: 5px 0;
+    
 }
 
 *:focus {
