@@ -92,6 +92,7 @@ h2:after {
     line-height: 145%;
     width: 80%;
     margin-left: 10%;
+    text-align: justify;
 }
 
 /* ------- ICONS ------- */
@@ -261,6 +262,7 @@ header {
 
 .section-publications {
     background-color: #f4f4f4;
+    text-align: justify;
 }
 
 .publication-box {
