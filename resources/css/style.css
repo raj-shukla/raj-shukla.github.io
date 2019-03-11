@@ -90,7 +90,7 @@ h2:after {
 
 .long-copy {
     line-height: 145%;
-    width: 80%;
+    width: 85%;
     margin-left: 10%;
     text-align: justify;
 }
@@ -245,7 +245,7 @@ header {
 
 .about-paragraph {
     float: left;
-    width: 80%
+    width: 85%
 }
 
 /* -------------------------------------------- */
@@ -267,7 +267,7 @@ header {
 
 .publication-box {
     width: 90%;
-    margin-left: 5%;
+    margin-left: 1%;
     background-color: #fff;
     border-radius: 5px;
     -webkit-box-shadow: 0 2px 2px #efefef;
@@ -312,7 +312,7 @@ header {
 footer {
     font-size: 80%;
     float: right;
-    width: 20%;
+    width: 15%;
     margin-top: 100px;
     line-height: 1px
 }
@@ -328,7 +328,7 @@ footer h2 {
     color: #555;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
-    font-size: 120%;
+    /*font-size: 120%;*/
     font-weight: 400;
 }
 
