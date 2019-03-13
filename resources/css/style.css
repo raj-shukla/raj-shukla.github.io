@@ -14,8 +14,8 @@ body {
     background-color: #fff ;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 18px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
@@ -83,7 +83,7 @@ h2:after {
     content: "";
     width: 100px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* ------- PARAGRAPHS ------- */
@@ -122,8 +122,8 @@ a:visited {
 /* -------------------------------------------- */
 
 header {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.5)),to(rgba(0, 0, 0, 0))), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0)), url(img/hero.jpg);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.5)),to(rgba(0, 0, 0, 0))), url(img/raj.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0)), url(img/raj.jpg);
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -240,7 +240,7 @@ header {
 /* -------------------------------------------- */
 
 .section-about .long-copy {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .about-paragraph {
@@ -266,10 +266,11 @@ header {
 }
 
 .publication-box {
-    width: 90%;
+    width: 81%;
     margin-left: 1%;
+    margin-top: 5%
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 0px;
     -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
 }
@@ -277,12 +278,14 @@ header {
 .publication-box div {
     padding: 25px;
     border-bottom: 1px solid #e8e8e8; 
+    background-color: white;
 }
 
 .publication-box div:first-child {
-    background-color: white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-color: #f4f4f4;
+    /*border-top-left-radius: 5px;
+    border-top-right-radius: 5px;*/
+    border: 0;
 }
 
 .publication-box div:last-child {
