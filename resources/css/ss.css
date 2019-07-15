@@ -83,18 +83,17 @@ h2:after {
     content: "";
     width: 100px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* ------- PARAGRAPHS ------- */
 
 .long-copy {
     line-height: 145%;
-    width: 90%;
-    margin-left: 5%;
+    width: 85%;
+    margin-left: 10%;
     text-align: justify;
 }
-
 
 /* ------- ICONS ------- */
 
@@ -241,11 +240,7 @@ header {
 /* -------------------------------------------- */
 
 .section-about .long-copy {
-    margin-bottom: 30px;
-}
-
-.heading-about {
-    margin-right: 15%;
+    margin-bottom: 10px;
 }
 
 .about-paragraph {
@@ -270,34 +265,27 @@ header {
     text-align: justify;
 }
 
-.heading-publication {
-    margin-right: 15%;
-}
-
-.about-publications {
-    float: left;
-    width: 85%;
-    background-color: #f4f4f4;
-}
-
 .publication-box {
-    width: 90%;
-    margin-left: 5%;
+    width: 81%;
+    margin-left: 1%;
+    margin-top: 5%
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 0px;
     -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
 }
 
-
 .publication-box div {
     padding: 25px;
     border-bottom: 1px solid #e8e8e8; 
+    background-color: white;
 }
 
 .publication-box div:first-child {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-color: #f4f4f4;
+    /*border-top-left-radius: 5px;
+    border-top-right-radius: 5px;*/
+    border: 0;
 }
 
 .publication-box div:last-child {
@@ -314,6 +302,7 @@ header {
 
 .publication-box ul li {
     padding: 5px 0;
+    
 }
 
 *:focus {
@@ -321,24 +310,16 @@ header {
 }
 
 /* -------------------------------------------- */
-/* OTHER CONTENTS */
-/* -------------------------------------------- */
-
-.other-contents {
-    float: right;
-    width: 15%;
-}
-
-/* -------------------------------------------- */
 /* FOOTER */
 /* -------------------------------------------- */
 
 footer {
-    font-size: 80%;
+    font-size: 70%;
     float: right;
-    width: 15%;
+    width: 12%;
+    margin-top: 100px;
+    line-height: 10%;
 }
-
 
 footer h2 {
     color: white;
@@ -351,7 +332,7 @@ footer h2 {
     color: #555;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
-/*    font-size: 120%;*/
+    /*font-size: 120%;*/
     font-weight: 400;
 }
 
@@ -372,3 +353,4 @@ footer .col {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
+
