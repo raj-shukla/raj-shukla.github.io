@@ -1,10 +1,5 @@
 @media only screen and (max-width: 1200px) {
     .row { padding: 0 2%; } 
-    
-    .long-copy {
-        width: 94%;
-        margin-left: 4%;
-    }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -12,22 +7,12 @@
 
     section { padding: 60px 0; }
 
-    /*.long-copy {
-        width: 80%;
-        margin-left: 10%;
-    }*/
-
     .icon-small {
         width: 17px;
         margin-right: 5px;
     }
 
     .contact-feature { font-size: 85%; }
-
-    /*.publication-box {
-        width: 100%;
-        margin-left: 0%;
-    }*/
 
 }
 
@@ -107,6 +92,11 @@
         width: 100%;
         margin-left: 0%;
     }
+
+    .publication-box {
+        width: 100%;
+        margin-left: 0%;
+    }
     
     .main-nav li {
         font-size: 80%;
@@ -161,5 +151,30 @@
     footer {
         width: 30%;
     }
+
+    .heading-about {
+        margin-right: 30%;
+    }
+
+
+    .about-publications {
+        width: 70%;
+    }
     
+    .other-contents {
+        width: 30%;
+    }
+
+    .heading-publication {
+        margin-right: 30%;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .row {
+        max-width: 100vw;
+    }
+
+    .row { padding: 0 2%; }
 }
