@@ -263,10 +263,11 @@ header {
 
 .heading-teaching {
     margin-right: 15%;
+    margin-left: 15%
 }
 
 .teaching-paragraph {
-    float: right;
+    float: left;
     width: 85%
 }
 
